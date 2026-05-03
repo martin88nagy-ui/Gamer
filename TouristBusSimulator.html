@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourist Bus Simulator oldal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-tourist">
+  <header class="hero">
+    <nav class="topbar">
+      <div class="topbar-header">
+        <a class="brand" href="index.html">Sim Hub</a>
+        <div class="topbar-actions">
+          <a class="topbar-action" href="bejelentkezes.html">Bejelentkezés</a>
+          <a class="topbar-action" href="regisztracio.html">Regisztráció</a>
+        </div>
+        <button type="button" class="search-toggle" aria-expanded="false" aria-controls="site-search" aria-label="Kereső megnyitása">⌕</button>
+        <form class="nav-search" action="#" role="search">
+          <label class="sr-only" for="site-search">Keresés</label>
+          <input id="site-search" type="search" placeholder="Keresés..." />
+          <button type="submit" class="search-button">Mehet</button>
+        </form>
+        <button type="button" class="search-cancel">Mégsem</button>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a class="menu-link-ets2" href="jatekvalaszto1.html">Vezetős sim.</a></li>
+        <li><a class="menu-link-pcbs2" href="jatekvalaszto2.html">Egyéb sim.</a></li>
+      </ul>
+    </nav>
+    <section id="bemutato" class="hero-content">
+      <p class="eyebrow">Tourist Bus Simulator oldal</p>
+      <h1>Tourist Bus Simulator - turistabusz + cégépítés</h1>
+      <p>Szigeti útvonalak, lazább buszvezetés és kezdő céges tippek egy helyen.</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="game-card game-card-tourist">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/427100/header.jpg" alt="Tourist Bus Simulator hivatalos kép" loading="lazy" />
+      <div>
+        <h2>Mi ez?</h2>
+        <p>A Tourist Bus Simulator egy turistabuszos szimulátor, ahol nem csak vezetsz, hanem fokozatosan saját vállalkozást is építesz. A játék lényege a nyugodtabb útvonalvezetés, a látványos környezet és az, hogy okosan oszd be a pénzed a cég indulásakor.</p>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>Modok</h2>
+      <div class="spec-grid">
+        <article>
+          <h3>Ajánlott lista</h3>
+          <ul>
+            <li>Bus skin pack - egyedi külső</li>
+            <li>Hangjavító mod - erősebb motorhangulat</li>
+            <li>UI vagy HUD finomítás - tisztább kezelőfelület</li>
+            <li>Könnyű járműcsomag - több buszváltozat</li>
+            <li>Apró grafikai javítások - jobb látvány kis terheléssel</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Miért jó?</h3>
+          <p>Itt a könnyebb, stabil modlista működik a legjobban. Nem kell túlzsúfolni: pár jól kiválasztott látvány- és hangmod elég sokat dob az élményen.</p>
+        </article>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>DLC ajánló</h2>
+      <p>Ha van a játékhoz hivatalos DLC vagy extra csomag, azt érdemes a modok elé tenni. A stabil alap itt is fontosabb, mint a túl korai, vegyes modolás.</p>
+      <ul>
+        <li>Először a hivatalos tartalmat érdemes megnézni.</li>
+        <li>Utána jöhetnek a kisebb skin, hang és felület modok.</li>
+        <li>A cégépítős mentéseknél különösen sokat számít a stabilitás.</li>
+      </ul>
+    </section>
+    <section class="panel chatbot-panel" data-chatbot-game="tourist">
+      <h2>Tourist Bus Simulator chatbot</h2>
+      <p class="chatbot-intro">Kérdezhetsz beállításokról, cégkezdő tippekről, modokról és DLC sorrendről.</p>
+      <div class="chatbot-suggestions">
+        <button type="button" class="chatbot-chip" data-chat-prompt="Milyen beállítás jó Tourist Bus Simulatorhoz?">Beállítások</button>
+        <button type="button" class="chatbot-chip" data-chat-prompt="Adj Tourist Bus Simulator cégkezdő tippeket.">Cégkezdés</button>
+        <button type="button" class="chatbot-chip" data-chat-prompt="Milyen modokat ajánlasz Tourist Bus Simulatorhoz?">Modok</button>
+        <button type="button" class="chatbot-chip" data-chat-prompt="Érdemes DLC-t nézni Tourist Bus Simulatorhoz?">DLC</button>
+      </div>
+      <div class="chatbot-feed" data-chat-feed></div>
+      <form class="chatbot-form" data-chat-form action="#">
+        <input type="text" data-chat-input placeholder="Pl. Milyen kezdő beállítás és cégstratégia jó Tourist Bus Simulatorhoz?" />
+        <button type="submit" class="cta cta-tourist">Küldés</button>
+      </form>
+      <p class="chatbot-note">Ez a bot is a stabil DLC + könnyű modlista sorrendet ajánlja.</p>
+    </section>
+    <section class="panel">
+      <h2>Járat példa</h2>
+      <p>Repülőtér → tengerparti hotel</p>
+      <p>Kellemes tempó, több megálló, város és nyílt út keveréke. Ettől működik jól a Tourist Bus Simulator: könnyebb, de látványos és hangulatos.</p>
+    </section>
+    <section class="panel">
+      <h2>Sim-Hub kapcsolat</h2>
+      <p>Ha ez a stílus tetszik, a Sim-Hub többi buszos és kamionos oldala is hasonló nyugodt szimulátoros hangulatot ad.</p>
+      <p><a class="cta cta-tourist" href="index.html#tartalmak">Sim-Hub megnyitása</a></p>
+    </section>
+    <section id="letoltes" class="panel">
+      <h2>Letöltés</h2>
+      <p><a class="cta cta-tourist" href="https://store.steampowered.com/app/427100/Tourist_Bus_Simulator/" target="_blank" rel="noopener noreferrer">Steam</a></p>
+      <p><a class="cta cta-tourist" href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord</a></p>
+    </section>
+    <section id="gepigeny" class="panel">
+      <h2>Tourist Bus Simulator gépigény</h2>
+      <div class="spec-grid">
+        <article><h3>Minimum</h3><ul><li>CPU: modern 4 magos processzor</li><li>RAM: 8 GB</li><li>GPU: GTX 970 / RX 570 szint</li><li>Tárhely: 25+ GB</li></ul></article>
+        <article><h3>Ajánlott</h3><ul><li>CPU: i5-10400 / Ryzen 5 3600 környéke</li><li>RAM: 16 GB</li><li>GPU: GTX 1660 / RX 5600 XT vagy jobb</li><li>SSD, Full HD közepes-magas beállítás</li></ul></article>
+      </div>
+    </section>
+  </main>
+
+  <section class="footer-links-simple">
+    <a href="kapcsolat.html">Kapcsolat</a>
+    <a href="adatvedelem.html">Adatvédelem</a>
+    <a href="felhasznalasi-feltetelek.html">Felhasználási feltételek</a>
+    <a href="impresszum.html">Impresszum</a>
+  </section>
+
+  <footer><p>Tourist Bus Simulator külön oldal.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
